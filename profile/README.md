@@ -41,7 +41,7 @@
 ## Контакты
 
 - **Сайт:** [maniforge.github.io](https://maniforge.github.io/)
-- **Email:** svit22@mail.ru
+- **Связь с нами:** [hello@maniforge.ru](mailto:hello@maniforge.ru)
 
 ---
 
