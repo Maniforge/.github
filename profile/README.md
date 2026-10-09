@@ -4,56 +4,45 @@
 
 **IT-компания**
 
-Разработка сайтов, инфраструктура и автоматизация для бизнеса.
+Сайты, инфраструктура и свои программы. Код заказчика и служебные архивы остаются в закрытых репозиториях.
 
-[![Site](https://img.shields.io/badge/site-maniforge.github.io-blue)](https://maniforge.github.io/)
-[![Go](https://img.shields.io/badge/Go-1.22+-00ADD8?logo=go&logoColor=white)](https://go.dev/)
-[![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=black)](https://react.dev/)
-[![PHP](https://img.shields.io/badge/PHP-8.x-777BB4?logo=php&logoColor=white)](https://www.php.net/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker&logoColor=white)](https://www.docker.com/)
+[Сайт](https://maniforge.github.io/) · [hello@maniforge.ru](mailto:hello@maniforge.ru)
 
 </div>
 
 ---
 
-## О нас
+## О компании
 
-**Maniforge** — IT-компания, которая проектирует, разрабатывает и сопровождает цифровые продукты.
+Maniforge проектирует и сопровождает цифровые продукты: корпоративные сайты, перенос с хостинга на свой сервер, автоматизацию склада и продаж, а также собственные программы.
 
-**Направления:**
+Публичный код можно клонировать по ссылке. Приватный виден только участникам репозитория.
 
-- корпоративные сайты и лендинги
-- миграция с хостинга на VPS
-- DevOps: nginx, Docker, CI/CD
-- автоматизация бизнес-процессов
+## Проекты
 
-## Публичные проекты
+| Проект | Смысл | Ссылка |
+|--------|--------|--------|
+| **ContextOS** | Локальная программа: контекст проекта для агента, память решений и проверки. Сайт слушает только `127.0.0.1`. Лицензия MIT, версия `0.3.0-rc.1`. | [публичный](https://github.com/Maniforge/contextos) |
+| **Сайт компании** | Страница Maniforge: что это за фреймворк и как он ставится на свой сервер. | [maniforge.github.io](https://maniforge.github.io/) · [репозиторий](https://github.com/Maniforge/maniforge.github.io) |
+| **Cursor Orchestration** | Пакет маршрутизации нескольких агентов в Cursor. В нём нет кода продуктов. | [публичный](https://github.com/Maniforge/maniforge-cursor-orchestration) |
+| **Platform Core** | Ядро платформы на инфраструктуре заказчика: API, роли, лицензии тенантов, манифест сущности даёт REST и OpenAPI. Ветка `platform-core`, релиз `v0.1.2-box`, Apache-2.0. | [приватный](https://github.com/Maniforge/Maniforge) |
+| **Low-code platform** | Модульный backend той же идеи: RBAC, лицензии, Manifest Engine, цепочка поставок. Go и PostgreSQL. | [приватный](https://github.com/Maniforge/maniforge_low_code_platform) |
+| **KeyStore** | Корпоративный сейф: пароли, контакты и рабочие секреты на своём сервере, с журналом действий. | [приватный](https://github.com/Maniforge/keystore) |
+| **Привет, сосед** | Гиперлокальный маркетплейс соседской помощи и бытовых услуг. | [приватный](https://github.com/Maniforge/privet-sosed) |
+| **Кирпич** | Android-лаунчер для пожилых: крупные кнопки и выход в полный телефон только опекуну. | [приватный](https://github.com/Maniforge/social_app) |
+| **Orbita / OrbApp** | Публичный лендинг и мобильное приложение по макету из Figma. | [приватный](https://github.com/Maniforge/orbita_orbapp) |
+| **Свит-Алтай** | Интернет-магазин тканей: витрина, кабинет, админка и API. | [приватный](https://github.com/Maniforge/svit_eCommerce) |
+| **Дрёма** | Лендинг сети магазинов постельного белья и товаров для дома. Сайт [dremadoma.ru](https://dremadoma.ru/). | [приватный](https://github.com/Maniforge/svit_Dremadoma) |
+| **WMS Svitex** | Склад и заказы Wildberries: остатки, набор со сканера, заявки клиентам. Сайт [devent.svitex.ru](https://devent.svitex.ru). | [приватный](https://github.com/Maniforge/svit-wms-system) |
+| **Garage OS** | Цифровой гараж: история машины, каталог запчастей, цены и подсказки по типичным поломкам. | [приватный](https://github.com/Maniforge/garage-os) |
+| **Идеи** | Черновики до отдельного репозитория. Кода продукта там нет. | [приватный](https://github.com/Maniforge/idea) |
 
-| Проект | Описание |
-|--------|----------|
-| [**svit_Dremadoma**](https://github.com/Maniforge/svit_Dremadoma) | Лендинг сети «Дрёма» — [dremadoma.ru](https://dremadoma.ru/) |
-
-> Внутренние и корпоративные решения ведутся в private-репозиториях и не публикуются.
-
-## Стек
-
-Сводка технологий из всех проектов компании (без названий private-репозиториев).
-
-**Backend:** Go · PHP 8 · Python · FastAPI · Node.js · Chi · Gin
-
-**Frontend:** React · TypeScript · Vite · Tailwind CSS · JavaScript · jQuery · Electron
-
-**Инфраструктура:** Ubuntu · Docker · nginx · Caddy · Apache · GitHub Actions
-
-**Данные:** PostgreSQL · Redis · MySQL · AWS S3
-
-**Инструменты:** Git · GORM · JWT · REST API · WebSocket
+Разработка ContextOS ведётся в отдельном приватном репозитории и в публичную линию не входит. Служебные архивы серверов в этот список не входят.
 
 ## Контакты
 
-- **Сайт:** [maniforge.github.io](https://maniforge.github.io/)
-- **Связь с нами:** [hello@maniforge.ru](mailto:hello@maniforge.ru)
+- Сайт: [maniforge.github.io](https://maniforge.github.io/)
+- Почта: [hello@maniforge.ru](mailto:hello@maniforge.ru)
 
 ---
 
